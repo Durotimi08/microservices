@@ -4,8 +4,8 @@
 		"cors": "^2.8.5",
 		"express": "^4.14.0"
 	},
-	"main": "server.js",
+	"main": "index.js",
 	"scripts": {
-		"start": "node main.js"
+		"start": "node index.js"
 	}
 }
