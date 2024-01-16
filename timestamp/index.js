@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
     `
 This is build for a FCC final project. Exposed API on this path:
 
-GET ./api/timestamp/:date?
+GET ./api/:date?
 
 See the FCC link for usage details.
 
@@ -21,7 +21,7 @@ https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices
   );
 });
 
-router.get("/api/timestamp/:date?", (req, res) => {
+router.get("/api/:date?", (req, res) => {
   let s = req.params.date;
   return res.json(genResponse(s));
 });

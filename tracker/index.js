@@ -1,7 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const path = require("path");
-const nanoid = require("nanoid").nanoid;
+const { v4: uuidv4 } = require('uuid');
+
+// Usage
+const uniqueId = uuidv4();
 
 const bodyParser = require("body-parser");
 router.use(bodyParser.urlencoded({ extended: "false" }));
