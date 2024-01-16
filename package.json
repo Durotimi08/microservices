@@ -2,7 +2,9 @@
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"cors": "^2.8.5",
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"multer": "^1.4.5-lts.1",
+		"uuid": "^9.0.1"
 	},
 	"main": "index.js",
 	"scripts": {
